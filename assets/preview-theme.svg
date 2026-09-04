@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="ThemeSwitch 明暗主题切换预览">
+  <defs>
+    <linearGradient id="lightSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="darkSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1f27"/>
+      <stop offset="100%" stop-color="#0d0f14"/>
+    </linearGradient>
+    <linearGradient id="trackGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd43b"/>
+      <stop offset="50%" stop-color="#2a3040"/>
+      <stop offset="100%" stop-color="#4c6ef5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- split background -->
+  <rect x="0" y="0" width="600" height="600" fill="url(#lightSide)"/>
+  <rect x="600" y="0" width="600" height="600" fill="url(#darkSide)"/>
+
+  <!-- LIGHT side content -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="60" y="70" font-size="30" font-weight="700" fill="#1a1d24">ThemeSwitch</text>
+    <text x="60" y="100" font-size="15" fill="#6b7280">跑道形开关 · 实时天气 · 豆瓣 Top250 推荐</text>
+
+    <!-- weather card light -->
+    <rect x="60" y="150" width="240" height="130" rx="18" fill="#ffffff" stroke="#e5e8ee" stroke-width="1.5"/>
+    <circle cx="112" cy="200" r="22" fill="#ffd43b"/>
+    <g stroke="#ffd43b" stroke-width="4" stroke-linecap="round">
+      <line x1="112" y1="164" x2="112" y2="172"/>
+      <line x1="112" y1="228" x2="112" y2="236"/>
+      <line x1="76" y1="200" x2="84" y2="200"/>
+      <line x1="140" y1="200" x2="148" y2="200"/>
+      <line x1="87" y1="175" x2="93" y2="181"/>
+      <line x1="131" y1="219" x2="137" y2="225"/>
+      <line x1="87" y1="225" x2="93" y2="219"/>
+      <line x1="131" y1="181" x2="137" y2="175"/>
+    </g>
+    <text x="168" y="196" font-size="38" font-weight="700" fill="#1a1d24">24°</text>
+    <text x="168" y="222" font-size="14" fill="#6b7280">晴 · 湿度 42%</text>
+    <text x="168" y="248" font-size="13" fill="#9aa1ae">杭州市 西湖区</text>
+
+    <!-- movie card light -->
+    <rect x="60" y="310" width="440" height="230" rx="20" fill="#ffffff" stroke="#e5e8ee" stroke-width="1.5"/>
+    <rect x="84" y="334" width="118" height="168" rx="10" fill="#e8ebf1"/>
+    <rect x="84" y="334" width="118" height="168" rx="10" fill="#4c6ef5" opacity="0.12"/>
+    <path d="M143 392 l18 26 -18 26 -18 -26 z" fill="#4c6ef5" opacity="0.55"/>
+    <text x="222" y="362" font-size="21" font-weight="700" fill="#1a1d24">肖申克的救赎</text>
+    <text x="222" y="392" font-size="16" font-weight="600" fill="#f59f00">9.7</text>
+    <text x="264" y="392" font-size="14" fill="#9aa1ae">豆瓣 Top250 No.1</text>
+    <g font-size="14" fill="#6b7280">
+      <text x="222" y="428">"希望是美好的，也许是人间至善，"</text>
+      <text x="222" y="452">"而美好的事物永不消逝。"</text>
+    </g>
+    <text x="222" y="500" font-size="13" fill="#9aa1ae">晴天推荐指数 5 星 · 适合静下心来看</text>
+  </g>
+
+  <!-- DARK side content -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="1140" y="70" text-anchor="end" font-size="30" font-weight="700" fill="#ffffff">Dark Mode</text>
+    <text x="1140" y="100" text-anchor="end" font-size="15" fill="#8b93a7">同一个页面 · 同一份数据 · 两种气质</text>
+
+    <!-- weather card dark -->
+    <rect x="900" y="150" width="240" height="130" rx="18" fill="#1b1f2b" stroke="#2a3040" stroke-width="1.5"/>
+    <path d="M976 200 a20 20 0 0 1 38 -6 a16 16 0 0 1 4 30 a20 20 0 0 1 -42 -2 z" fill="#5a6273"/>
+    <g stroke="#7d97ff" stroke-width="3" stroke-linecap="round">
+      <line x1="972" y1="224" x2="966" y2="240"/>
+      <line x1="992" y1="226" x2="986" y2="242"/>
+      <line x1="1012" y1="224" x2="1006" y2="240"/>
+      <line x1="1032" y1="226" x2="1026" y2="242"/>
+    </g>
+    <text x="1040" y="196" font-size="34" font-weight="700" fill="#ffffff">16°</text>
+    <text x="1040" y="222" font-size="14" fill="#8b93a7">中雨 · 湿度 88%</text>
+    <text x="1040" y="248" font-size="13" fill="#5a6273">雷暴粒子特效已启用</text>
+
+    <!-- movie card dark -->
+    <rect x="700" y="310" width="440" height="230" rx="20" fill="#1b1f2b" stroke="#2a3040" stroke-width="1.5"/>
+    <rect x="724" y="334" width="118" height="168" rx="10" fill="#252a38"/>
+    <path d="M783 392 l18 26 -18 26 -18 -26 z" fill="#7950f2" opacity="0.65"/>
+    <text x="862" y="362" font-size="21" font-weight="700" fill="#ffffff">银翼杀手 2049</text>
+    <text x="862" y="392" font-size="16" font-weight="600" fill="#f59f00">8.5</text>
+    <text x="904" y="392" font-size="14" fill="#5a6273">豆瓣 Top250</text>
+    <g font-size="14" fill="#8b93a7">
+      <text x="862" y="428">"下雨的夜晚，适合看赛博朋克。"</text>
+      <text x="862" y="452">"光影与雨幕是最好的搭档。"</text>
+    </g>
+    <text x="862" y="500" font-size="13" fill="#5a6273">雨天推荐指数 5 星 · 氛围感拉满</text>
+  </g>
+
+  <!-- center toggle -->
+  <g>
+    <rect x="500" y="176" width="200" height="88" rx="44" fill="url(#trackGrad)"/>
+    <rect x="508" y="184" width="184" height="72" rx="36" fill="#0d0f14" opacity="0.18"/>
+    <!-- sun -->
+    <g transform="translate(548,220)">
+      <circle r="15" fill="#ffd43b"/>
+      <g stroke="#ffd43b" stroke-width="3.5" stroke-linecap="round">
+        <line x1="0" y1="-24" x2="0" y2="-18"/>
+        <line x1="0" y1="18" x2="0" y2="24"/>
+        <line x1="-24" y1="0" x2="-18" y2="0"/>
+        <line x1="18" y1="0" x2="24" y2="0"/>
+      </g>
+    </g>
+    <!-- moon -->
+    <g transform="translate(652,220)">
+      <path d="M6 -16 a16 16 0 1 0 0 32 a13 13 0 1 1 0 -32 z" fill="#e7ecf5"/>
+    </g>
+    <!-- knob -->
+    <circle cx="652" cy="220" r="34" fill="#ffffff"/>
+    <circle cx="652" cy="220" r="34" fill="none" stroke="#4c6ef5" stroke-width="2"/>
+    <path d="M643 214 a11 11 0 1 0 0 12 a9 9 0 1 1 0 -12 z" fill="#4c6ef5"/>
+  </g>
+  <text x="600" y="300" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#8b93a7">拖拽切换 · 按温度与天气双因子推荐</text>
+</svg>

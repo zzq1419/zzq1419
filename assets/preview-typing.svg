@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="TouchType Lab 盲打练习网站预览">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12141c"/>
+      <stop offset="100%" stop-color="#0a0c12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4c6ef5"/>
+      <stop offset="100%" stop-color="#7950f2"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <ellipse cx="600" cy="60" rx="420" ry="120" fill="#4c6ef5" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- header -->
+  <text x="60" y="66" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#ffffff">TouchType Lab</text>
+  <text x="60" y="96" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" fill="#8b93a7">纯前端 · 可离线 · 零依赖的盲打练习工具</text>
+
+  <!-- stat pills -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <g transform="translate(760,40)">
+      <rect width="120" height="62" rx="12" fill="#1b1f2b" stroke="#2a3040"/>
+      <text x="60" y="28" text-anchor="middle" font-size="24" font-weight="700" fill="#4c6ef5">62</text>
+      <text x="60" y="48" text-anchor="middle" font-size="12" fill="#8b93a7">WPM</text>
+    </g>
+    <g transform="translate(894,40)">
+      <rect width="120" height="62" rx="12" fill="#1b1f2b" stroke="#2a3040"/>
+      <text x="60" y="28" text-anchor="middle" font-size="24" font-weight="700" fill="#2fbf71">96%</text>
+      <text x="60" y="48" text-anchor="middle" font-size="12" fill="#8b93a7">准确率</text>
+    </g>
+    <g transform="translate(1028,40)">
+      <rect width="120" height="62" rx="12" fill="#1b1f2b" stroke="#2a3040"/>
+      <text x="60" y="28" text-anchor="middle" font-size="24" font-weight="700" fill="#f59f00">x18</text>
+      <text x="60" y="48" text-anchor="middle" font-size="12" fill="#8b93a7">连击</text>
+    </g>
+  </g>
+
+  <!-- typed line -->
+  <g font-family="'SF Mono', Consolas, monospace" font-size="26">
+    <text x="155" y="168">
+      <tspan fill="#2fbf71">the quick brown fox jumps over</tspan>
+      <tspan fill="#4c6ef5" text-decoration="underline"> </tspan>
+      <tspan fill="#5a6273">the lazy dog</tspan>
+    </text>
+  </g>
+
+  <!-- keyboard -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="600">
+    <!-- row 1 numbers -->
+    <g fill="#1b1f2b" stroke="#2a3040" stroke-width="1.5">
+      <rect x="155" y="230" width="80" height="64" rx="10"/>
+      <rect x="245" y="230" width="80" height="64" rx="10"/>
+      <rect x="335" y="230" width="80" height="64" rx="10"/>
+      <rect x="425" y="230" width="80" height="64" rx="10"/>
+      <rect x="515" y="230" width="80" height="64" rx="10"/>
+      <rect x="605" y="230" width="80" height="64" rx="10"/>
+      <rect x="695" y="230" width="80" height="64" rx="10"/>
+      <rect x="785" y="230" width="80" height="64" rx="10"/>
+      <rect x="875" y="230" width="80" height="64" rx="10"/>
+      <rect x="965" y="230" width="80" height="64" rx="10"/>
+    </g>
+    <g fill="#8b93a7" text-anchor="middle">
+      <text x="195" y="270">1</text><text x="285" y="270">2</text><text x="375" y="270">3</text>
+      <text x="465" y="270">4</text><text x="555" y="270">5</text><text x="645" y="270">6</text>
+      <text x="735" y="270">7</text><text x="825" y="270">8</text><text x="915" y="270">9</text>
+      <text x="1005" y="270">0</text>
+    </g>
+
+    <!-- row 2 QWERTY -->
+    <g fill="#1b1f2b" stroke="#2a3040" stroke-width="1.5">
+      <rect x="155" y="308" width="80" height="64" rx="10"/>
+      <rect x="245" y="308" width="80" height="64" rx="10"/>
+      <rect x="335" y="308" width="80" height="64" rx="10"/>
+      <rect x="425" y="308" width="80" height="64" rx="10"/>
+      <rect x="515" y="308" width="80" height="64" rx="10"/>
+      <rect x="605" y="308" width="80" height="64" rx="10"/>
+      <rect x="695" y="308" width="80" height="64" rx="10"/>
+      <rect x="785" y="308" width="80" height="64" rx="10"/>
+      <rect x="875" y="308" width="80" height="64" rx="10"/>
+      <rect x="965" y="308" width="80" height="64" rx="10"/>
+    </g>
+    <g fill="#8b93a7" text-anchor="middle">
+      <text x="195" y="348">Q</text><text x="285" y="348">W</text><text x="375" y="348">E</text>
+      <text x="465" y="348">R</text><text x="555" y="348">T</text><text x="645" y="348">Y</text>
+      <text x="735" y="348">U</text><text x="825" y="348">I</text><text x="915" y="348">O</text>
+      <text x="1005" y="348">P</text>
+    </g>
+
+    <!-- row 3 home row (highlighted) -->
+    <g stroke-width="1.5">
+      <rect x="200" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+      <rect x="290" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+      <rect x="380" y="386" width="80" height="64" rx="10" fill="#123a24" stroke="#2fbf71"/>
+      <rect x="470" y="386" width="80" height="64" rx="10" fill="url(#accent)" stroke="#7d97ff"/>
+      <rect x="560" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+      <rect x="650" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+      <rect x="740" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+      <rect x="830" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+      <rect x="920" y="386" width="80" height="64" rx="10" fill="#1b1f2b" stroke="#2a3040"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="240" y="426" fill="#8b93a7">A</text>
+      <text x="330" y="426" fill="#8b93a7">S</text>
+      <text x="420" y="426" fill="#2fbf71">D</text>
+      <text x="510" y="426" fill="#ffffff">F</text>
+      <text x="600" y="426" fill="#8b93a7">J</text>
+      <text x="690" y="426" fill="#8b93a7">K</text>
+      <text x="780" y="426" fill="#8b93a7">L</text>
+      <text x="870" y="426" fill="#8b93a7">;</text>
+      <text x="960" y="426" fill="#8b93a7">'</text>
+    </g>
+
+    <!-- row 4 ZXCV -->
+    <g fill="#1b1f2b" stroke="#2a3040" stroke-width="1.5">
+      <rect x="155" y="464" width="80" height="64" rx="10"/>
+      <rect x="245" y="464" width="80" height="64" rx="10"/>
+      <rect x="335" y="464" width="80" height="64" rx="10"/>
+      <rect x="425" y="464" width="80" height="64" rx="10"/>
+      <rect x="515" y="464" width="80" height="64" rx="10"/>
+      <rect x="605" y="464" width="80" height="64" rx="10"/>
+      <rect x="695" y="464" width="80" height="64" rx="10"/>
+      <rect x="785" y="464" width="80" height="64" rx="10"/>
+      <rect x="875" y="464" width="80" height="64" rx="10"/>
+      <rect x="965" y="464" width="80" height="64" rx="10"/>
+    </g>
+    <g fill="#8b93a7" text-anchor="middle">
+      <text x="195" y="504">Z</text><text x="285" y="504">X</text><text x="375" y="504">C</text>
+      <text x="465" y="504">V</text><text x="555" y="504">B</text><text x="645" y="504">N</text>
+      <text x="735" y="504">M</text><text x="825" y="504">,</text><text x="915" y="504">.</text>
+      <text x="1005" y="504">/</text>
+    </g>
+  </g>
+
+  <!-- hint -->
+  <text x="600" y="566" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#5a6273">下一个：F（左手食指）· 实时反馈延迟 &lt; 50ms · 打对才前进</text>
+</svg>
