@@ -12,7 +12,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/zzq1419?label=Stars&style=for-the-badge&color=7950f2)](https://github.com/zzq1419?tab=repositories)
 [![GitHub repos](https://img.shields.io/badge/Public%20Repos-4-22a7f0?style=for-the-badge)](https://github.com/zzq1419?tab=repositories)
 
-🌐 **[个人主页（GitHub Pages）](https://zzq1419.github.io/)**
+🌐 **[个人主页（GitHub Pages）](https://zzq1419.github.io/zzq1419/)**
 
 </div>
 
@@ -277,7 +277,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-@zzq1419-181717?style=for-the-badge&logo=github)](https://github.com/zzq1419)
 [![Email](https://img.shields.io/badge/Email-2036829270%40qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2036829270@qq.com)
-[![Blog](https://img.shields.io/badge/Pages-zzq1419.github.io-4c6ef5?style=for-the-badge&logo=githubpages&logoColor=white)](https://zzq1419.github.io/)
+[![Blog](https://img.shields.io/badge/Pages-zzq1419.github.io%2Fzzq1419-4c6ef5?style=for-the-badge&logo=githubpages&logoColor=white)](https://zzq1419.github.io/zzq1419/)
 
 如果也在准备考研，或者想一起做点东西，欢迎来聊。
 
